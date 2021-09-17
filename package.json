@@ -1,0 +1,20 @@
+{
+  "name": "parse-urls",
+  "version": "1.0.0",
+  "description": "Parses the version numbers of javascript assets",
+  "main": "index.js",
+  "scripts": {
+    "parse": "node ./index.js > versions.csv"
+  },
+  "keywords": [
+    "utility",
+    "parser",
+    "version",
+    "headless"
+  ],
+  "author": "Maurice van Creij",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^10.2.0"
+  }
+}
